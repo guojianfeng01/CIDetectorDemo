@@ -4,7 +4,7 @@ CIDetector这个类用于识别、检测静止图片或者视频中的显著特�
 CIFeature类只保存基本信息， 所有的附加信息由子类保存。
 
 iPhone 目前提供的人脸识别比较简单，只能识别一些简单的面部表情；
-//1 将UIImage转换成CIImage
+1 将UIImage转换成CIImage
 CIImage* ciimage = [CIImage imageWithCGImage:image.CGImage];
 //2.设置人脸识别精度
 NSDictionary* opts = [NSDictionary dictionaryWithObject:
